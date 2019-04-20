@@ -1,0 +1,1891 @@
+Train - Test:  159 40
+Grammar Ready
+Sentence: ['Travelers', 'Corp.', "'s", 'third-quarter', 'net', 'income', 'rose', '11', '%', ',', 'even', 'though', 'claims', 'stemming', 'from', 'Hurricane', 'Hugo', 'reduced', 'results', '$', '40', 'million', '*U*', '.']
+(S
+  (NP-SBJ
+    (NP (NNPS Travelers) (NNP Corp.))
+    (VP
+      (VBZ 's)
+      (NP
+        (JJ third-quarter)
+        (NP|<JJ-NN> (JJ net) (NN income)))))
+  (S|<VP-.>
+    (VP
+      (VBD rose)
+      (VP|<NP-EXT-,-ADVP-PRP>
+        (NP-EXT (CD 11) (NN %))
+        (VP|<,-ADVP-PRP>
+          (, ,)
+          (ADVP-PRP
+            (RB even)
+            (PP
+              (IN though)
+              (NP
+                (NP+NNS claims)
+                (PP
+                  (VBG stemming)
+                  (PP
+                    (IN from)
+                    (NP
+                      (NP
+                        (NP (NNP Hurricane) (NNP Hugo))
+                        (NP|<VBN-NNS>
+                          (VBN reduced)
+                          (NNS results)))
+                      (NP|<QP--NONE->
+                        (QP
+                          ($ $)
+                          (QP|<CD-CD> (CD 40) (CD million)))
+                        (-NONE- *U*)))))))))))
+    (. .))) (p=1.75519e-76)
+ID:  0 length: 24 state:  0 recall:37.50 prec:26.09 matched_brackets:  6 gold_brackets: 16 test_brackets: 23 cross_brackets:  5 words: 24 correct_tags: 19 tag_accracy:79.17 
+Sentence: ['PAPERS', ':']
+Treebank index 1 0 OOV words: {'PAPERS'} Applying Smoothing
+No tree
+Sentence: ['Backe', 'Group', 'Inc.', 'agreed', '*-1', 'to', 'acquire', 'Atlantic', 'Publications', 'Inc.', ',', 'which', '*T*-141', 'has', '30', 'community', 'papers', 'and', 'annual', 'sales', 'of', '$', '7', 'million', '*U*', '.']
+Treebank index 1 1 OOV words: {'*T*-141', 'papers', 'Backe'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NN Backe)
+    (NP-SBJ|<NNP-NNP> (NNP Group) (NNP Inc.)))
+  (S|<VP-.>
+    (VP
+      (VBD agreed)
+      (S
+        (NP-SBJ+-NONE- *-1)
+        (VP
+          (TO to)
+          (VP
+            (VB acquire)
+            (NP
+              (NP
+                (NNP Atlantic)
+                (NP|<NNPS-NNP>
+                  (NNPS Publications)
+                  (NNP Inc.)))
+              (NP|<,-SBAR>
+                (, ,)
+                (SBAR
+                  (WHNP-79 (WDT which) (NN *T*-141))
+                  (S
+                    (NP-SBJ
+                      (NP
+                        (VBZ has)
+                        (S
+                          (NP-SBJ (CD 30) (NN community))
+                          (NP-PRD (NN papers) (NN and))))
+                      (NP-SBJ|<JJ-NNS>
+                        (JJ annual)
+                        (NNS sales)))
+                    (PP-PRD
+                      (IN of)
+                      (NP
+                        (QP
+                          ($ $)
+                          (QP|<CD-CD> (CD 7) (CD million)))
+                        (-NONE- *U*)))))))))))
+    (. .))) (p=2.83999e-86)
+ID:  0 length: 26 state:  0 recall:47.62 prec:40.00 matched_brackets: 10 gold_brackets: 21 test_brackets: 25 cross_brackets:  4 words: 26 correct_tags: 20 tag_accracy:76.92 
+Sentence: ['Argentina', 'said', '0', 'it', 'will', 'ask', 'creditor', 'banks', '*-1', 'to', 'halve', 'its', 'foreign', 'debt', 'of', '$', '64', 'billion', '*U*', '--', 'the', 'third-highest', 'in', 'the', 'developing', 'world', '.']
+Treebank index 2 0 OOV words: {'halve', 'Argentina', 'third-highest'} Applying Smoothing
+No tree
+Sentence: ['The', 'declaration', 'by', 'Economy', 'Minister', 'Nestor', 'Rapanelli', 'is', 'believed', '*-1', 'to', 'be', 'the', 'first', 'time', '0', 'such', 'an', 'action', 'has', 'been', 'called', 'for', '*-3', 'by', 'an', 'Argentine', 'official', 'of', 'such', 'stature', '*T*-2', '.']
+Treebank index 2 1 OOV words: {'Rapanelli', 'Economy', 'declaration', 'Nestor', 'Argentine'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP
+      (NP (DT The) (NN declaration))
+      (PP (IN by) (NP (NN Economy) (NNP Minister))))
+    (NP-SBJ|<NN-NN> (NN Nestor) (NN Rapanelli)))
+  (S|<VP-.>
+    (VP
+      (VBZ is)
+      (VP
+        (VBN believed)
+        (S
+          (NP-SBJ+-NONE- *-1)
+          (VP
+            (TO to)
+            (VP
+              (VB be)
+              (NP
+                (NP
+                  (DT the)
+                  (NP|<JJ-NN> (JJ first) (NN time)))
+                (SBAR
+                  (-NONE- 0)
+                  (S
+                    (NP-SBJ
+                      (JJ such)
+                      (NP-SBJ|<DT-NN> (DT an) (NN action)))
+                    (VP
+                      (VBZ has)
+                      (VP
+                        (VBN been)
+                        (VP
+                          (VBD called)
+                          (VP|<PP-LOC-PP-LOC-PP-CLR-ADVP-TMP+-NONE->
+                            (PP-LOC
+                              (IN for)
+                              (NP+-NONE- *-3))
+                            (VP|<PP-LOC-PP-CLR-ADVP-TMP+-NONE->
+                              (PP-LOC
+                                (IN by)
+                                (NP
+                                  (DT an)
+                                  (NP|<NN-NN>
+                                    (NN Argentine)
+                                    (NN official))))
+                              (VP|<PP-CLR-ADVP-TMP+-NONE->
+                                (PP-CLR
+                                  (IN of)
+                                  (NP
+                                    (JJ such)
+                                    (NN stature)))
+                                (ADVP-TMP+-NONE- *T*-2)))))))))))))))
+    (. .))) (p=7.24778e-101)
+ID:  0 length: 33 state:  0 recall:50.00 prec:43.75 matched_brackets: 14 gold_brackets: 28 test_brackets: 32 cross_brackets:  4 words: 33 correct_tags: 25 tag_accracy:75.76 
+Sentence: ['John', 'R.', 'Stevens', ',', '49', 'years', 'old', ',', 'was', 'named', '*-27', 'senior', 'executive', 'vice', 'president', 'and', 'chief', 'operating', 'officer', ',', 'both', 'new', 'positions', '.']
+Treebank index 3 0 OOV words: {'Stevens'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (NP (NNP John) (NNP R.)) (NN Stevens))
+    (NP-SBJ|<,-ADJP-,>
+      (, ,)
+      (NP-SBJ|<ADJP-,>
+        (ADJP (NP (CD 49) (NNS years)) (JJ old))
+        (, ,))))
+  (S|<VP-.>
+    (VP
+      (VBD was)
+      (VP
+        (VBN named)
+        (VP|<NP+-NONE--NP>
+          (NP+-NONE- *-27)
+          (NP
+            (NP
+              (NP
+                (JJ senior)
+                (NP|<JJ-NN> (JJ executive) (NN vice)))
+              (NX
+                (NX+NN president)
+                (NX|<CC-NX>
+                  (CC and)
+                  (NX
+                    (NN chief)
+                    (NX|<VBG-NN>
+                      (VBG operating)
+                      (NN officer))))))
+            (NP|<,-NP>
+              (, ,)
+              (NP
+                (DT both)
+                (NP|<JJ-NNS> (JJ new) (NNS positions))))))))
+    (. .))) (p=4.61246e-77)
+ID:  0 length: 24 state:  0 recall:57.14 prec:34.78 matched_brackets:  8 gold_brackets: 14 test_brackets: 23 cross_brackets:  1 words: 24 correct_tags: 20 tag_accracy:83.33 
+Sentence: ['John', 'F.', 'Barrett', ',', '40', ',', 'formerly', 'executive', 'vice', 'president', 'and', 'chief', 'financial', 'officer', ',', 'was', 'named', '*-1', 'president', 'and', 'chief', 'operating', 'officer', ',', 'posts', 'which', '*T*-2', 'had', 'been', 'vacant', '.']
+Treebank index 4 0 OOV words: {'Barrett'} Applying Smoothing
+No tree
+Sentence: ['INGERSOLL-RAND', 'Co', '.', '-LRB-', 'Woodcliff', 'Lake', ',', 'N.J', '.', '-RRB-', '--']
+Treebank index 5 0 OOV words: {'INGERSOLL-RAND', 'Woodcliff'} Applying Smoothing
+No tree
+Sentence: ['William', 'G.', 'Kuhns', ',', 'former', 'chairman', '*RNR*-1', 'and', 'chief', 'executive', 'officer', '*RNR*-1', 'of', 'General', 'Public', 'Utilities', 'Corp.', ',', 'was', 'elected', '*-2', 'a', 'director', 'of', 'this', 'maker', 'of', 'industrial', 'and', 'construction', 'equipment', ',', '*', 'increasing', 'board', 'membership', 'to', '10', '.']
+Treebank index 5 1 OOV words: {'Kuhns'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (NP (NNP William) (NNP G.)) (NN Kuhns))
+    (NP-SBJ|<,-NP-,>
+      (, ,)
+      (NP-SBJ|<NP-,>
+        (NP
+          (NP
+            (NP
+              (NP (JJ former) (NN chairman))
+              (PP+-NONE- *RNR*-1))
+            (NP|<CC-NP>
+              (CC and)
+              (NP
+                (NP
+                  (JJ chief)
+                  (NP|<JJ-NN> (JJ executive) (NN officer)))
+                (PP+-NONE- *RNR*-1))))
+          (PP
+            (IN of)
+            (NP
+              (NNP General)
+              (NP|<NNP-NNP-NNP>
+                (NNP Public)
+                (NP|<NNP-NNP> (NNP Utilities) (NNP Corp.))))))
+        (, ,))))
+  (S|<VP-.>
+    (VP
+      (VBD was)
+      (VP
+        (VBN elected)
+        (VP|<NP+-NONE--PP-PP-TMP-,-S-PRP>
+          (NP+-NONE- *-2)
+          (VP|<PP-PP-TMP-,-S-PRP>
+            (PP
+              (NP-ADV (DT a) (NN director))
+              (PP|<IN-NP>
+                (IN of)
+                (NP (DT this) (NN maker))))
+            (VP|<PP-TMP-,-S-PRP>
+              (PP-TMP
+                (IN of)
+                (UCP
+                  (JJ industrial)
+                  (UCP|<CC-NN-NN>
+                    (CC and)
+                    (UCP|<NN-NN>
+                      (NN construction)
+                      (NN equipment)))))
+              (VP|<,-S-PRP>
+                (, ,)
+                (S-PRP
+                  (NP-SBJ+-NONE- *)
+                  (VP
+                    (VBG increasing)
+                    (VP|<NP-PP-DIR>
+                      (NP (NN board) (NN membership))
+                      (PP-DIR (TO to) (NP+CD 10)))))))))))
+    (. .))) (p=1.21603e-116)
+ID:  0 length: 39 state:  0 recall:32.26 prec:26.32 matched_brackets: 10 gold_brackets: 31 test_brackets: 38 cross_brackets:  9 words: 39 correct_tags: 33 tag_accracy:84.62 
+Sentence: ['Michaels', 'Stores', 'Inc.', ',', 'which', '*T*-142', 'owns', 'and', 'operates', 'a', 'chain', 'of', 'specialty', 'retail', 'stores', ',', 'said', '0', 'October', 'sales', 'rose', '14.6', '%', 'to', '$', '32.8', 'million', '*U*', 'from', '$', '28.6', 'million', '*U*', 'a', 'year', 'earlier', '.']
+Treebank index 6 0 OOV words: {'*T*-142', '32.8', '14.6', '28.6', 'Michaels'} Applying Smoothing
+No tree
+Sentence: ['Sales', 'in', 'stores', 'open', 'more', 'than', 'one', 'year', 'rose', '3', '%', 'to', '$', '29.3', 'million', '*U*', 'from', '$', '28.4', 'million', '*U*', '.']
+Treebank index 6 1 OOV words: {'28.4', '29.3'} Applying Smoothing
+No tree
+Sentence: ['Program', 'trading', 'is', '``', 'a', 'racket', ',', "''", 'complains', '0', '*T*-1', 'Edward', 'Egnuss', ',', 'a', 'White', 'Plains', ',', 'N.Y.', ',', 'investor', 'and', 'electronics', 'sales', 'executive', ',', '``', 'and', 'it', "'s", 'not', 'to', 'the', 'benefit', 'of', 'the', 'small', 'investor', ',', 'that', "'s", 'for', 'sure', '.', "''"]
+Treebank index 7 0 OOV words: {'Egnuss'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP
+      (NP
+        (NP
+          (NP
+            (NP (NN Program) (NN trading))
+            (VP
+              (VBZ is)
+              (VP|<``-NP-,-''>
+                (`` ``)
+                (VP|<NP-,-''>
+                  (NP (DT a) (NN racket))
+                  (VP|<,-''> (, ,) ('' ''))))))
+          (VP
+            (VBZ complains)
+            (SBAR (-NONE- 0) (S+-NONE- *T*-1))))
+        (NP|<NNP-NN> (NNP Edward) (NN Egnuss)))
+      (NP|<,-NP>
+        (, ,)
+        (NP
+          (DT a)
+          (NP|<NNP-NNPS> (NNP White) (NNPS Plains)))))
+    (NP-SBJ|<,-NP-LOC-,>
+      (, ,)
+      (NP-SBJ|<NP-LOC-,>
+        (NP-LOC
+          (NP+NNP N.Y.)
+          (NP-LOC|<,-NP>
+            (, ,)
+            (NP
+              (NP
+                (NN investor)
+                (NP|<CC-NNS> (CC and) (NNS electronics)))
+              (NP|<NNS-NN> (NNS sales) (NN executive)))))
+        (, ,))))
+  (S|<``-VP>
+    (`` ``)
+    (VP
+      (JJ and)
+      (S
+        (NP-SBJ+PRP it)
+        (S|<VP-.-''>
+          (VP
+            (VBZ 's)
+            (S
+              (ADVP-TMP
+                (ADVP
+                  (RB not)
+                  (PP (TO to) (NP (DT the) (NN benefit))))
+                (PP
+                  (IN of)
+                  (NP
+                    (DT the)
+                    (NP|<JJ-NN> (JJ small) (NN investor)))))
+              (S|<,-NP-SBJ+WDT-VP>
+                (, ,)
+                (S|<NP-SBJ+WDT-VP>
+                  (NP-SBJ+WDT that)
+                  (VP
+                    (VBZ 's)
+                    (ADJP-PRD (RB for) (JJ sure)))))))
+          (S|<.-''> (. .) ('' ''))))))) (p=4.4229e-125)
+ID:  0 length: 45 state:  0 recall:21.43 prec:13.64 matched_brackets:  6 gold_brackets: 28 test_brackets: 44 cross_brackets: 17 words: 45 correct_tags: 36 tag_accracy:80.00 
+Sentence: ['Tokyo', 'stocks', 'edged', 'up', 'Wednesday', 'in', 'relatively', 'active', 'but', 'unfocused', 'trading', '.']
+(S
+  (NP-SBJ (NNP Tokyo) (NNS stocks))
+  (S|<VP-.>
+    (VP
+      (VBD edged)
+      (VP|<PRT+RP-NP>
+        (PRT+RP up)
+        (NP
+          (NP+NNP Wednesday)
+          (PP
+            (IN in)
+            (NP
+              (ADJP
+                (RB relatively)
+                (ADJP|<JJ-CC-JJ>
+                  (JJ active)
+                  (ADJP|<CC-JJ> (CC but) (JJ unfocused))))
+              (NN trading))))))
+    (. .))) (p=1.80146e-40)
+ID:  0 length: 12 state:  0 recall:60.00 prec:54.55 matched_brackets:  6 gold_brackets: 10 test_brackets: 11 cross_brackets:  1 words: 12 correct_tags: 10 tag_accracy:83.33 
+Sentence: ['Bank', 'of', 'New', 'England', 'Corp.', 'said', '0', 'it', 'has', 'held', 'talks', 'with', 'potential', 'merger', 'partners', 'outside', 'New', 'England', ',', 'although', 'it', 'added', 'that', 'nothing', 'is', 'imminent', 'and', 'it', 'has', "n't", 'received', 'any', 'formal', 'offers', '.']
+Treebank index 9 0 OOV words: {'formal'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP+NNP Bank)
+    (PP
+      (IN of)
+      (NP
+        (NP
+          (NNP New)
+          (NP|<NNP-NNP> (NNP England) (NNP Corp.)))
+        (VP
+          (VBD said)
+          (SBAR
+            (-NONE- 0)
+            (S
+              (NP-SBJ+PRP it)
+              (VP
+                (VBZ has)
+                (VP
+                  (VBN held)
+                  (VP|<NP-PRD-PP-TMP-,-SBAR-ADV>
+                    (NP-PRD
+                      (NP+NNS talks)
+                      (PP
+                        (IN with)
+                        (NP
+                          (JJ potential)
+                          (NP|<NN-NNS>
+                            (NN merger)
+                            (NNS partners)))))
+                    (VP|<PP-TMP-,-SBAR-ADV>
+                      (PP-TMP
+                        (IN outside)
+                        (NP (NNP New) (NNP England)))
+                      (VP|<,-SBAR-ADV>
+                        (, ,)
+                        (SBAR-ADV
+                          (IN although)
+                          (S
+                            (NP-SBJ+PRP it)
+                            (VP
+                              (VBD added)
+                              (PP-CLR
+                                (IN that)
+                                (NP+NN nothing))))))))))))))))
+  (VP
+    (VBZ is)
+    (ADJP-PRD
+      (JJ imminent)
+      (S
+        (CC and)
+        (S|<NP-SBJ+PRP-VP-.>
+          (NP-SBJ+PRP it)
+          (S|<VP-.>
+            (VP
+              (VBZ has)
+              (VP|<RB-VP>
+                (RB n't)
+                (VP
+                  (VBD received)
+                  (NP
+                    (DT any)
+                    (NP|<NN-NNS> (NN formal) (NNS offers))))))
+            (. .))))))) (p=5.66852e-102)
+ID:  0 length: 35 state:  0 recall:18.18 prec:17.65 matched_brackets:  6 gold_brackets: 33 test_brackets: 34 cross_brackets: 24 words: 35 correct_tags: 27 tag_accracy:77.14 
+Sentence: ['Despite', 'a', 'deluge', 'of', 'economic', 'news', ',', 'the', 'Treasury', 'market', 'remained', 'quiet', 'but', 'the', 'corporate', 'market', 'was', 'abuzz', 'over', 'International', 'Business', 'Machines', 'Corp.', "'s", 'huge', 'debt', 'offering', '.']
+Treebank index 10 0 OOV words: {'abuzz', 'deluge'} Applying Smoothing
+(S
+  (PP-LOC
+    (IN Despite)
+    (NP
+      (NP (DT a) (NN deluge))
+      (PP (IN of) (NP (JJ economic) (NN news)))))
+  (S|<,-NP-SBJ-VP>
+    (, ,)
+    (S|<NP-SBJ-VP>
+      (NP-SBJ
+        (DT the)
+        (NP-SBJ|<NNP-NN> (NNP Treasury) (NN market)))
+      (VP
+        (VBD remained)
+        (ADJP-PRD
+          (JJ quiet)
+          (S
+            (CC but)
+            (S|<NP-SBJ-VP-.>
+              (NP-SBJ
+                (DT the)
+                (NP-SBJ|<JJ-NN> (JJ corporate) (NN market)))
+              (S|<VP-.>
+                (VP
+                  (VBD was)
+                  (VP
+                    (NN abuzz)
+                    (VP|<PRT+RP-NP>
+                      (PRT+RP over)
+                      (NP
+                        (NP
+                          (NNP International)
+                          (NP|<NNP-NNPS-NNP-POS>
+                            (NNP Business)
+                            (NP|<NNPS-NNP-POS>
+                              (NNPS Machines)
+                              (NP|<NNP-POS>
+                                (NNP Corp.)
+                                (POS 's)))))
+                        (NP|<JJ-NN-NN>
+                          (JJ huge)
+                          (NP|<NN-NN>
+                            (NN debt)
+                            (NN offering)))))))
+                (. .))))))))) (p=1.2683e-88)
+ID:  0 length: 28 state:  0 recall:58.82 prec:37.04 matched_brackets: 10 gold_brackets: 17 test_brackets: 27 cross_brackets:  3 words: 28 correct_tags: 26 tag_accracy:92.86 
+Sentence: ['F.H.', 'Faulding', '&', 'Co.', ',', 'an', 'Australian', 'pharmaceuticals', 'company', ',', 'said', '0', 'its', 'Moleculon', 'Inc.', 'affiliate', 'acquired', 'Kalipharma', 'Inc.', 'for', '$', '23', 'million', '*U*', '.']
+Treebank index 11 0 OOV words: {'Moleculon', 'Kalipharma', 'F.H.', 'Faulding'} Applying Smoothing
+No tree
+Sentence: ['Kalipharma', 'is', 'a', 'New', 'Jersey-based', 'pharmaceuticals', 'concern', 'that', '*T*-34', 'sells', 'products', 'under', 'the', 'Purepac', 'label', '.']
+Treebank index 11 1 OOV words: {'label', 'Purepac', 'Jersey-based'} Applying Smoothing
+(S
+  (PP
+    (NN Kalipharma)
+    (NP
+      (VBZ is)
+      (S
+        (NP-SBJ
+          (DT a)
+          (NP-SBJ|<NNP-NN> (NNP New) (NN Jersey-based)))
+        (NP-PRD
+          (NP+NNS pharmaceuticals)
+          (VP (VB concern) (NP+DT that))))))
+  (S|<NP-SBJ+-NONE--VP>
+    (NP-SBJ+-NONE- *T*-34)
+    (VP
+      (VBZ sells)
+      (NP-PRD
+        (NP+NNS products)
+        (PP
+          (IN under)
+          (PP|<NP-.>
+            (NP
+              (DT the)
+              (NP|<NN-NN> (NN Purepac) (NN label)))
+            (. .))))))) (p=1.02304e-67)
+ID:  0 length: 16 state:  0 recall:14.29 prec:13.33 matched_brackets:  2 gold_brackets: 14 test_brackets: 15 cross_brackets: 10 words: 16 correct_tags:  7 tag_accracy:43.75 
+Sentence: ['LTV', 'Corp.', 'said', '0', 'a', 'federal', 'bankruptcy', 'court', 'judge', 'agreed', '*-1', 'to', 'extend', 'until', 'March', '8', ',', '1990', ',', 'the', 'period', 'in', 'which', 'the', 'steel', ',', 'aerospace', 'and', 'energy', 'products', 'company', 'has', 'the', 'exclusive', 'right', '*', 'to', 'file', 'a', 'reorganization', 'plan', '*T*-2', '.']
+Treebank index 12 0 OOV words: {'judge', 'LTV'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (NN LTV) (NNP Corp.))
+    (VP
+      (VBD said)
+      (SBAR
+        (-NONE- 0)
+        (S
+          (NP-SBJ
+            (NP
+              (DT a)
+              (NP|<JJ-NN> (JJ federal) (NN bankruptcy)))
+            (NP-SBJ|<NN-NN> (NN court) (NN judge)))
+          (VP (VBN agreed) (NP+-NONE- *-1))))))
+  (VP
+    (TO to)
+    (VP
+      (VB extend)
+      (PP-CLR
+        (IN until)
+        (NP
+          (NP
+            (NNP March)
+            (NP|<CD-,-CD>
+              (CD 8)
+              (NP|<,-CD> (, ,) (CD 1990))))
+          (NP|<,-SBAR>
+            (, ,)
+            (SBAR
+              (WHNP-1
+                (WHNP (DT the) (NN period))
+                (WHPP (IN in) (WHNP+WDT which)))
+              (S
+                (NP-TMP (DT the) (NN steel))
+                (S|<,-NP-SBJ-46-VP-.>
+                  (, ,)
+                  (S|<NP-SBJ-46-VP-.>
+                    (NP-SBJ-46
+                      (NP
+                        (NN aerospace)
+                        (NP|<CC-NN-NNS>
+                          (CC and)
+                          (NP|<NN-NNS>
+                            (NN energy)
+                            (NNS products))))
+                      (NN company))
+                    (S|<VP-.>
+                      (VP
+                        (VBZ has)
+                        (VP|<NP-S-MNR>
+                          (NP
+                            (DT the)
+                            (NP|<JJ-NN>
+                              (JJ exclusive)
+                              (NN right)))
+                          (S-MNR
+                            (NP-SBJ+-NONE- *)
+                            (VP
+                              (TO to)
+                              (VP
+                                (VB file)
+                                (VP|<NP-ADVP+-NONE->
+                                  (NP
+                                    (DT a)
+                                    (NP|<NN-NN>
+                                      (NN reorganization)
+                                      (NN plan)))
+                                  (ADVP+-NONE- *T*-2)))))))
+                      (. .)))))))))))) (p=2.58144e-123)
+ID:  0 length: 43 state:  0 recall:13.33 prec: 9.52 matched_brackets:  4 gold_brackets: 30 test_brackets: 42 cross_brackets: 21 words: 43 correct_tags: 37 tag_accracy:86.05 
+Sentence: ['While', 'worry', '*ICH*-1', 'grows', 'about', 'big', 'Japanese', 'investments', 'in', 'the', 'U.S.', ',', 'Japan', "'s", 'big', 'trading', 'companies', 'are', 'rapidly', 'increasing', 'their', 'stake', 'in', 'America', "'s", 'smaller', 'business', '.']
+(S
+  (SBAR-ADV
+    (IN While)
+    (SINV
+      (VB worry)
+      (SINV|<VP+-NONE--NP-SBJ>
+        (VP+-NONE- *ICH*-1)
+        (NP-SBJ
+          (NP
+            (VBZ grows)
+            (S
+              (NP-SBJ
+                (RB about)
+                (NP
+                  (JJ big)
+                  (NP|<JJ-NNS>
+                    (JJ Japanese)
+                    (NNS investments))))
+              (PP-PRD (IN in) (NP+DT the))))
+          (NNP U.S.)))))
+  (S|<,-NP-SBJ+NNP-VP-.>
+    (, ,)
+    (S|<NP-SBJ+NNP-VP-.>
+      (NP-SBJ+NNP Japan)
+      (S|<VP-.>
+        (VP
+          (VBZ 's)
+          (S
+            (NP-SBJ
+              (JJ big)
+              (NP-SBJ|<VBG-NNS>
+                (VBG trading)
+                (NNS companies)))
+            (VP
+              (VBP are)
+              (VP|<RB-VP>
+                (RB rapidly)
+                (VP
+                  (VBG increasing)
+                  (NP
+                    (PRP$ their)
+                    (NP|<ADJP-NN>
+                      (ADJP
+                        (NP-ADV
+                          (NP+NN stake)
+                          (PP
+                            (IN in)
+                            (NP (NNP America) (POS 's))))
+                        (JJR smaller))
+                      (NN business))))))))
+        (. .))))) (p=4.98261e-97)
+ID:  0 length: 28 state:  0 recall:27.27 prec:22.22 matched_brackets:  6 gold_brackets: 22 test_brackets: 27 cross_brackets: 12 words: 28 correct_tags: 20 tag_accracy:71.43 
+Sentence: ['For', '10', 'years', ',', 'Genie', 'Driskill', 'went', 'to', 'her', 'neighborhood', 'bank', 'because', 'it', 'was', 'convenient', '.']
+Treebank index 14 0 OOV words: {'Driskill', 'Genie'} Applying Smoothing
+No tree
+Sentence: ['*-4', 'A', 'high-balance', 'customer', 'that', 'banks', 'pine', 'for', '*T*-1', ',', 'she', 'did', "n't", 'give', 'much', 'thought', 'to', 'the', 'rates', '0', 'she', 'was', 'receiving', '*T*-2', ',', 'nor', 'to', 'the', 'fees', '0', 'she', 'was', 'paying', '*T*-3', '.']
+Treebank index 14 1 OOV words: {'high-balance', 'pine'} Applying Smoothing
+(S
+  (NP-SBJ+-NONE- *-4)
+  (NP-PRD
+    (NP
+      (DT A)
+      (NP|<NN-NN> (NN high-balance) (NN customer)))
+    (NP-PRD|<PP-LOC-S-2>
+      (PP-LOC (IN that) (NP (NNS banks) (NN pine)))
+      (S-2
+        (PP (IN for) (NP+-NONE- *T*-1))
+        (S-2|<,-NP-SBJ-1+PRP-VP>
+          (, ,)
+          (S-2|<NP-SBJ-1+PRP-VP>
+            (NP-SBJ-1+PRP she)
+            (VP
+              (VBD did)
+              (VP|<RB-VP>
+                (RB n't)
+                (VP
+                  (VBP give)
+                  (VP|<RB-VP>
+                    (RB much)
+                    (VP
+                      (VBD thought)
+                      (VP|<PP-CLR-SBAR>
+                        (PP-CLR
+                          (PP
+                            (TO to)
+                            (NP
+                              (NP (DT the) (NNS rates))
+                              (SBAR
+                                (-NONE- 0)
+                                (S
+                                  (NP-SBJ+PRP she)
+                                  (VP
+                                    (VBD was)
+                                    (VP
+                                      (VBG receiving)
+                                      (ADVP-LOC+-NONE-
+                                        *T*-2)))))))
+                          (PP-CLR|<,-CC-PP>
+                            (, ,)
+                            (PP-CLR|<CC-PP>
+                              (CC nor)
+                              (PP
+                                (TO to)
+                                (NP (DT the) (NNS fees))))))
+                        (SBAR
+                          (-NONE- 0)
+                          (S
+                            (NP-SBJ+PRP she)
+                            (S|<VP-.>
+                              (VP
+                                (VBD was)
+                                (VP
+                                  (VBG paying)
+                                  (NP+-NONE- *T*-3)))
+                              (. .)))))))))))))))) (p=5.33478e-100)
+ID:  0 length: 35 state:  0 recall:32.43 prec:35.29 matched_brackets: 12 gold_brackets: 37 test_brackets: 34 cross_brackets: 17 words: 35 correct_tags: 22 tag_accracy:62.86 
+Sentence: ['The', 'Department', 'of', 'Health', 'and', 'Human', 'Services', 'plans', '*-1', 'to', 'extend', 'its', 'moratorium', 'on', 'federal', 'funding', 'of', 'research', 'involving', 'fetal-tissue', 'transplants', '.']
+Treebank index 15 0 OOV words: {'Human'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP
+      (NP (DT The) (NN Department))
+      (PP
+        (IN of)
+        (NP (NNP Health) (NP|<NN-NN> (NN and) (NN Human)))))
+    (NNPS Services))
+  (S|<VP-.>
+    (VP
+      (VBZ plans)
+      (S
+        (NP-SBJ+-NONE- *-1)
+        (VP
+          (TO to)
+          (VP
+            (VB extend)
+            (VP|<NP-SBAR-ADV>
+              (NP (PRP$ its) (NN moratorium))
+              (SBAR-ADV
+                (IN on)
+                (S
+                  (NP-SBJ
+                    (NP (JJ federal) (NN funding))
+                    (PP (IN of) (NP+NN research)))
+                  (VP
+                    (VBG involving)
+                    (NP
+                      (NN fetal-tissue)
+                      (NNS transplants))))))))))
+    (. .))) (p=1.52277e-72)
+ID:  0 length: 22 state:  0 recall:45.45 prec:47.62 matched_brackets: 10 gold_brackets: 22 test_brackets: 21 cross_brackets:  6 words: 22 correct_tags: 16 tag_accracy:72.73 
+Sentence: ['For', 'six', 'years', ',', 'T.', 'Marshall', 'Hahn', 'Jr.', 'has', 'made', 'corporate', 'acquisitions', 'in', 'the', 'George', 'Bush', 'mode', ':', 'kind', 'and', 'gentle', '.']
+Treebank index 16 0 OOV words: {'mode', 'gentle', 'Hahn'} Applying Smoothing
+(S
+  (PP-LOC (IN For) (NP (CD six) (NNS years)))
+  (S|<,-NP-SBJ-1-VP-.>
+    (, ,)
+    (S|<NP-SBJ-1-VP-.>
+      (NP-SBJ-1
+        (ADJP (NNP T.) (NNP Marshall))
+        (NP-SBJ-1|<NN-NNP> (NN Hahn) (NNP Jr.)))
+      (S|<VP-.>
+        (VP
+          (VBZ has)
+          (VP
+            (VBN made)
+            (VP|<NP-PP-CLR>
+              (NP (JJ corporate) (NNS acquisitions))
+              (PP-CLR
+                (IN in)
+                (NP
+                  (NP
+                    (DT the)
+                    (NP|<NNP-NNP-NN>
+                      (NNP George)
+                      (NP|<NNP-NN> (NNP Bush) (NN mode))))
+                  (NP|<:-NP>
+                    (: :)
+                    (NP
+                      (NN kind)
+                      (NP|<CC-NN> (CC and) (NN gentle)))))))))
+        (. .))))) (p=2.75628e-70)
+ID:  0 length: 22 state:  0 recall:63.64 prec:33.33 matched_brackets:  7 gold_brackets: 11 test_brackets: 21 cross_brackets:  0 words: 22 correct_tags: 19 tag_accracy:86.36 
+Sentence: ['The', 'limits', 'to', 'legal', 'absurdity', 'stretched', 'another', 'notch', 'this', 'week', 'when', 'the', 'Supreme', 'Court', 'refused', '*-2', 'to', 'hear', 'an', 'appeal', 'from', 'a', 'case', 'that', '*T*-1', 'says', '0', 'corporate', 'defendants', 'must', 'pay', 'damages', 'even', 'after', '*-3', 'proving', 'that', 'they', 'could', 'not', 'possibly', 'have', 'caused', 'the', 'harm', '.']
+Treebank index 17 0 OOV words: {'notch', 'absurdity', 'stretched', 'proving'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (DT The) (NNS limits))
+    (PP
+      (TO to)
+      (NP
+        (JJ legal)
+        (NP|<NN-NN> (NN absurdity) (NN stretched)))))
+  (NP-PRD
+    (NP
+      (NP (DT another) (NN notch))
+      (NP-ADV (DT this) (NN week)))
+    (SBAR
+      (WHADVP-1+WRB when)
+      (S
+        (NP-SBJ
+          (DT the)
+          (NP-SBJ|<NNP-NNP> (NNP Supreme) (NNP Court)))
+        (S|<VP-.>
+          (VP
+            (VBN refused)
+            (VP|<NP+-NONE--SBAR-ADV>
+              (NP+-NONE- *-2)
+              (SBAR-ADV
+                (IN to)
+                (SINV
+                  (VP
+                    (VB hear)
+                    (ADVP-TMP
+                      (NP (DT an) (NN appeal))
+                      (IN from)))
+                  (NP-SBJ
+                    (NP
+                      (NP (DT a) (NN case))
+                      (SBAR
+                        (WHNP-1+WDT that)
+                        (S
+                          (NP-SBJ+-NONE- *T*-1)
+                          (VP
+                            (VBZ says)
+                            (SBAR
+                              (-NONE- 0)
+                              (S
+                                (PP
+                                  (JJ corporate)
+                                  (NP
+                                    (NP+NNS defendants)
+                                    (VP
+                                      (MD must)
+                                      (S
+                                        (NP-SBJ
+                                          (NN pay)
+                                          (NNS damages))
+                                        (ADJP-PRD
+                                          (RB even)
+                                          (RB after))))))
+                                (S|<NP-SBJ+-NONE--VP>
+                                  (NP-SBJ+-NONE- *-3)
+                                  (VP
+                                    (NN proving)
+                                    (SBAR
+                                      (WHNP-1+WDT that)
+                                      (S
+                                        (NP-SBJ+PRP they)
+                                        (VP
+                                          (MD could)
+                                          (VP|<RB-ADVP+RB-VP>
+                                            (RB not)
+                                            (VP|<ADVP+RB-VP>
+                                              (ADVP+RB
+                                                possibly)
+                                              (VP
+                                                (VBP have)
+                                                (ADJP
+                                                  (VBN
+                                                    caused)
+                                                  (JJ the))))))))))))))))
+                    (NP+NN harm))))))
+          (. .)))))) (p=2.45189e-174)
+ID:  0 length: 46 state:  0 recall:11.11 prec:11.11 matched_brackets:  5 gold_brackets: 45 test_brackets: 45 cross_brackets: 29 words: 46 correct_tags: 28 tag_accracy:60.87 
+Sentence: ['The', 'Internal', 'Revenue', 'Service', 'has', 'threatened', 'criminal', 'sanctions', 'against', 'lawyers', 'who', '*T*-123', 'fail', '*-1', 'to', 'report', 'detailed', 'information', 'about', 'clients', 'who', '*T*-124', 'pay', 'them', 'more', 'than', '$', '10,000', '*U*', 'in', 'cash', '.']
+Treebank index 18 0 OOV words: {'Internal', '*T*-124', '*T*-123'} Applying Smoothing
+No tree
+Sentence: ['The', 'warnings', ',', 'issued', '*', 'to', 'at', 'least', '100', 'criminal', 'defense', 'attorneys', 'in', 'several', 'major', 'cities', 'in', 'the', 'last', 'week', ',', 'have', 'led', 'to', 'an', 'outcry', 'by', 'members', 'of', 'the', 'organized', 'bar', ',', 'who', '*T*-125', 'claim', '0', 'the', 'information', 'is', 'protected', '*-1', 'by', 'attorney-client', 'privilege', '.']
+Treebank index 18 1 OOV words: {'protected', '*T*-125', 'attorney-client', 'privilege', 'outcry', 'attorneys', 'warnings'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (DT The) (NN warnings))
+    (NP-SBJ|<,-VP-,>
+      (, ,)
+      (NP-SBJ|<VP-,>
+        (VP
+          (VBN issued)
+          (VP|<NP+-NONE--PP-CLR-PP-LOC-PP-TMP>
+            (NP+-NONE- *)
+            (VP|<PP-CLR-PP-LOC-PP-TMP>
+              (PP-CLR
+                (TO to)
+                (NP
+                  (NP
+                    (QP
+                      (IN at)
+                      (QP|<JJS-CD> (JJS least) (CD 100)))
+                    (NP|<JJ-NN> (JJ criminal) (NN defense)))
+                  (NN attorneys)))
+              (VP|<PP-LOC-PP-TMP>
+                (PP-LOC
+                  (IN in)
+                  (NP
+                    (JJ several)
+                    (NP|<JJ-NNS> (JJ major) (NNS cities))))
+                (PP-TMP
+                  (IN in)
+                  (NP
+                    (DT the)
+                    (NP|<JJ-NN> (JJ last) (NN week))))))))
+        (, ,))))
+  (S|<VP-.>
+    (VP
+      (VBP have)
+      (VP
+        (VBD led)
+        (VP|<PP-DIR-PP-DIR>
+          (PP-DIR (TO to) (NP (DT an) (NN outcry)))
+          (PP-DIR
+            (IN by)
+            (NP
+              (NP+NNS members)
+              (NP|<PP-,-SBAR>
+                (PP
+                  (IN of)
+                  (NP
+                    (DT the)
+                    (NP|<VBN-NN> (VBN organized) (NN bar))))
+                (NP|<,-SBAR>
+                  (, ,)
+                  (SBAR
+                    (WHNP-1+WP who)
+                    (S
+                      (NP-SBJ
+                        (NP (NN *T*-125) (NN claim))
+                        (SBAR
+                          (-NONE- 0)
+                          (S
+                            (NP-SBJ
+                              (DT the)
+                              (NN information))
+                            (VP
+                              (VBZ is)
+                              (VP
+                                (NN protected)
+                                (NP+-NONE- *-1))))))
+                      (PP-PRD
+                        (IN by)
+                        (NP
+                          (NN attorney-client)
+                          (NN privilege))))))))))))
+    (. .))) (p=1.17398e-135)
+ID:  0 length: 46 state:  0 recall:51.43 prec:40.00 matched_brackets: 18 gold_brackets: 35 test_brackets: 45 cross_brackets:  6 words: 46 correct_tags: 33 tag_accracy:71.74 
+Sentence: ['Since', 'chalk', 'first', 'touched', 'slate', ',', 'schoolchildren', 'have', 'wanted', '*-1', 'to', 'know', ':', 'What', "'s", '*T*-2', 'on', 'the', 'test', '?']
+Treebank index 19 0 OOV words: {'chalk', 'slate', 'schoolchildren', 'touched'} Applying Smoothing
+No tree
+Sentence: ['These', 'days', ',', 'students', 'can', 'often', 'find', 'the', 'answer', 'in', 'test-coaching', 'workbooks', 'and', 'worksheets', '0', 'their', 'teachers', 'give', 'them', '*T*-1', 'in', 'the', 'weeks', 'prior', 'to', '*', 'taking', 'standardized', 'achievement', 'tests', '.']
+Treebank index 19 1 OOV words: {'workbooks', 'worksheets'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (DT These) (NNS days))
+    (NP-SBJ|<,-NP>
+      (, ,)
+      (NP
+        (NP+NNS students)
+        (VP
+          (MD can)
+          (VP|<ADVP-TMP+RB-VP>
+            (ADVP-TMP+RB often)
+            (VP
+              (VBP find)
+              (VP|<DT-VP>
+                (DT the)
+                (VP
+                  (VB answer)
+                  (VP|<PP-ADVP-TMP>
+                    (PP
+                      (IN in)
+                      (NP
+                        (NP
+                          (NP
+                            (JJ test-coaching)
+                            (NP|<NN-CC-NN>
+                              (NN workbooks)
+                              (NP|<CC-NN>
+                                (CC and)
+                                (NN worksheets))))
+                          (SBAR
+                            (-NONE- 0)
+                            (S
+                              (NP-SBJ
+                                (PRP$ their)
+                                (NNS teachers))
+                              (VP
+                                (VB give)
+                                (VP|<NP+PRP-ADVP-MNR+-NONE->
+                                  (NP+PRP them)
+                                  (ADVP-MNR+-NONE- *T*-1))))))
+                        (PP
+                          (IN in)
+                          (NP (DT the) (NNS weeks)))))
+                    (ADVP-TMP
+                      (RB prior)
+                      (PP (TO to) (NP+-NONE- *))))))))))))
+  (S|<VP-.>
+    (VP
+      (VBG taking)
+      (NP
+        (JJ standardized)
+        (NP|<NN-NNS> (NN achievement) (NNS tests))))
+    (. .))) (p=5.11044e-95)
+ID:  0 length: 31 state:  0 recall:23.08 prec:20.00 matched_brackets:  6 gold_brackets: 26 test_brackets: 30 cross_brackets: 18 words: 31 correct_tags: 21 tag_accracy:67.74 
+Sentence: ['Wall', 'Street', "'s", 'big', 'securities', 'firms', 'face', 'the', 'prospect', 'of', '*', 'having', 'their', 'credit', 'ratings', 'lowered', '.']
+No tree
+Sentence: ['The', 'reason', ':', 'Risks', 'from', 'the', 'firms', "'", 'new', '``', 'merchant', 'banking', "''", 'activities', 'are', 'rising', 'as', 'revenue', 'from', 'the', 'industry', "'s", 'traditional', 'business', 'erodes', '.']
+Treebank index 20 1 OOV words: {'Risks', 'erodes'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP
+      (NP (DT The) (NN reason))
+      (NP|<:-NP>
+        (: :)
+        (NP
+          (NAC
+            (NN Risks)
+            (PP (IN from) (NP (DT the) (NNS firms))))
+          (POS '))))
+    (PP
+      (JJ new)
+      (NP
+        (`` ``)
+        (NP|<NP-''-NNS>
+          (NP (NN merchant) (NN banking))
+          (NP|<''-NNS> ('' '') (NNS activities))))))
+  (S|<VP-.>
+    (VP
+      (VBP are)
+      (VP
+        (VBG rising)
+        (PP-CLR
+          (IN as)
+          (NP
+            (NP+NN revenue)
+            (PP
+              (IN from)
+              (NP
+                (NP
+                  (DT the)
+                  (NP|<NN-POS> (NN industry) (POS 's)))
+                (NP|<JJ-NN-NN>
+                  (JJ traditional)
+                  (NP|<NN-NN> (NN business) (NN erodes)))))))))
+    (. .))) (p=8.08681e-81)
+ID:  0 length: 26 state:  0 recall:22.22 prec:16.00 matched_brackets:  4 gold_brackets: 18 test_brackets: 25 cross_brackets: 11 words: 26 correct_tags: 23 tag_accracy:88.46 
+Sentence: ['The', 'federal', 'government', 'suspended', 'sales', 'of', 'U.S.', 'savings', 'bonds', 'because', 'Congress', 'has', "n't", 'lifted', 'the', 'ceiling', 'on', 'government', 'debt', '.']
+(S
+  (NP-SBJ
+    (DT The)
+    (NP-SBJ|<JJ-NN> (JJ federal) (NN government)))
+  (S|<VP-.>
+    (VP
+      (VBN suspended)
+      (S
+        (NP-SBJ
+          (NP+NNS sales)
+          (NP-SBJ|<PP-PP-TMP>
+            (PP
+              (IN of)
+              (NP
+                (NNP U.S.)
+                (NP|<NN-NNS> (NN savings) (NNS bonds))))
+            (PP-TMP (IN because) (NP+NNP Congress))))
+        (VP
+          (VBZ has)
+          (VP|<RB-VP>
+            (RB n't)
+            (VP
+              (VBD lifted)
+              (VP|<NP-PP-CLR>
+                (NP (DT the) (NN ceiling))
+                (PP-CLR
+                  (IN on)
+                  (NP (NN government) (NN debt)))))))))
+    (. .))) (p=6.34031e-61)
+ID:  0 length: 20 state:  0 recall:56.25 prec:47.37 matched_brackets:  9 gold_brackets: 16 test_brackets: 19 cross_brackets:  3 words: 20 correct_tags: 15 tag_accracy:75.00 
+Sentence: ['Signs', 'of', 'a', 'slowing', 'economy', 'are', 'increasing', 'pressure', '*ICH*-2', 'on', 'the', 'Federal', 'Reserve', '*', 'to', 'cut', 'short-term', 'interest', 'rates', ',', 'but', 'it', '*EXP*-1', 'is', "n't", 'clear', 'whether', 'the', 'central', 'bank', 'will', 'do', 'so', '.']
+Treebank index 22 0 OOV words: {'Signs'} Applying Smoothing
+(S
+  (S
+    (NP-SBJ
+      (NP
+        (NN Signs)
+        (SBAR
+          (IN of)
+          (S
+            (NP-SBJ
+              (DT a)
+              (NP-SBJ|<NN-NN> (NN slowing) (NN economy)))
+            (VP
+              (VBP are)
+              (NP-PRD
+                (VBG increasing)
+                (NP-PRD|<NN-SBAR+-NONE->
+                  (NN pressure)
+                  (SBAR+-NONE- *ICH*-2)))))))
+      (NP-SBJ|<PP-LOC-NP+-NONE->
+        (PP-LOC
+          (IN on)
+          (NP
+            (DT the)
+            (NP|<NNP-NNP> (NNP Federal) (NNP Reserve))))
+        (NP+-NONE- *)))
+    (VP
+      (TO to)
+      (VP
+        (VB cut)
+        (NP
+          (JJ short-term)
+          (NP|<NN-NNS> (NN interest) (NNS rates))))))
+  (S|<,-CC-S-.>
+    (, ,)
+    (S|<CC-S-.>
+      (CC but)
+      (S|<S-.>
+        (S
+          (NP-SBJ (NP+PRP it) (SBAR+-NONE- *EXP*-1))
+          (VP
+            (VBZ is)
+            (VP|<RB-ADJP-PRD+JJ-SBAR-1>
+              (RB n't)
+              (VP|<ADJP-PRD+JJ-SBAR-1>
+                (ADJP-PRD+JJ clear)
+                (SBAR-1
+                  (IN whether)
+                  (S
+                    (NP-SBJ
+                      (DT the)
+                      (NP-SBJ|<JJ-NN>
+                        (JJ central)
+                        (NN bank)))
+                    (VP
+                      (MD will)
+                      (VP (VB do) (ADVP-MNR+RB so)))))))))
+        (. .))))) (p=1.2703e-95)
+ID:  0 length: 34 state:  0 recall:46.67 prec:42.42 matched_brackets: 14 gold_brackets: 30 test_brackets: 33 cross_brackets:  7 words: 34 correct_tags: 26 tag_accracy:76.47 
+Sentence: ['Pierre', 'Vinken', ',', '61', 'years', 'old', ',', 'will', 'join', 'the', 'board', 'as', 'a', 'nonexecutive', 'director', 'Nov.', '29', '.']
+Treebank index 23 0 OOV words: {'Pierre', 'Vinken'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (NN Pierre) (NN Vinken))
+    (NP-SBJ|<,-ADJP-,>
+      (, ,)
+      (NP-SBJ|<ADJP-,>
+        (ADJP (NP (CD 61) (NNS years)) (JJ old))
+        (, ,))))
+  (S|<VP-.>
+    (VP
+      (MD will)
+      (VP
+        (VB join)
+        (VP|<NP-PP-LOC-NP-TMP>
+          (NP (DT the) (NN board))
+          (VP|<PP-LOC-NP-TMP>
+            (PP-LOC
+              (IN as)
+              (NP
+                (DT a)
+                (NP|<JJ-NN>
+                  (JJ nonexecutive)
+                  (NN director))))
+            (NP-TMP (NNP Nov.) (CD 29))))))
+    (. .))) (p=1.68975e-55)
+ID:  0 length: 18 state:  0 recall:90.91 prec:58.82 matched_brackets: 10 gold_brackets: 11 test_brackets: 17 cross_brackets:  0 words: 18 correct_tags: 16 tag_accracy:88.89 
+Sentence: ['Lewis', 'C.', 'Veraldi', ',', 'the', 'father', 'of', 'the', 'team', 'that', '*T*-1', 'created', 'the', 'highly', 'successful', 'Ford', 'Taurus', 'and', 'Mercury', 'Sable', 'cars', ',', 'retired', 'early', 'after', '*-2', 'experiencing', 'recent', 'heart', 'problems', '.']
+Treebank index 24 0 OOV words: {'Sable', 'Taurus', 'Veraldi', 'Mercury', 'experiencing'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (NP (NNP Lewis) (NNP C.)) (NN Veraldi))
+    (NP-SBJ|<,-NP-,>
+      (, ,)
+      (NP-SBJ|<NP-,>
+        (NP
+          (NP (DT the) (NN father))
+          (NP|<PP-SBAR>
+            (PP (IN of) (NP (DT the) (NN team)))
+            (SBAR
+              (WHNP-1+WDT that)
+              (S
+                (NP-SBJ+-NONE- *T*-1)
+                (VP
+                  (VBD created)
+                  (NP
+                    (NP
+                      (DT the)
+                      (NP|<ADJP-NNP-NN>
+                        (ADJP (RB highly) (JJ successful))
+                        (NP|<NNP-NN>
+                          (NNP Ford)
+                          (NN Taurus))))
+                    (NP|<CC-NP>
+                      (CC and)
+                      (NP
+                        (NN Mercury)
+                        (NP|<NN-NNS> (NN Sable) (NNS cars))))))))))
+        (, ,))))
+  (S|<VP-.>
+    (VP
+      (VBN retired)
+      (ADJP-PRD
+        (JJ early)
+        (PP
+          (IN after)
+          (S-NOM
+            (NP-SBJ+-NONE- *-2)
+            (VP
+              (NN experiencing)
+              (NP
+                (JJ recent)
+                (NP|<NN-NNS> (NN heart) (NNS problems))))))))
+    (. .))) (p=1.56814e-99)
+ID:  0 length: 31 state:  0 recall:63.64 prec:46.67 matched_brackets: 14 gold_brackets: 22 test_brackets: 30 cross_brackets:  3 words: 31 correct_tags: 21 tag_accracy:67.74 
+Sentence: ['Carnival', 'Cruise', 'Lines', 'Inc.', 'said', '0', 'potential', 'problems', 'with', 'the', 'construction', 'of', 'two', 'big', 'cruise', 'ships', 'from', 'Finland', 'have', 'been', 'averted', '*-1', '.']
+Treebank index 25 0 OOV words: {'cruise', 'averted'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP
+      (NNP Carnival)
+      (NP|<NNP-NNPS> (NNP Cruise) (NNPS Lines)))
+    (NNP Inc.))
+  (VP
+    (VBD said)
+    (SBAR
+      (-NONE- 0)
+      (S
+        (NP-SBJ
+          (NP (JJ potential) (NNS problems))
+          (NP-SBJ|<PP-PP-PP>
+            (PP (IN with) (NP (DT the) (NN construction)))
+            (NP-SBJ|<PP-PP>
+              (PP
+                (IN of)
+                (NP
+                  (CD two)
+                  (NP|<JJ-NN-NNS>
+                    (JJ big)
+                    (NP|<NN-NNS> (NN cruise) (NNS ships)))))
+              (PP (IN from) (NP+NNP Finland)))))
+        (S|<VP-.>
+          (VP
+            (VBP have)
+            (VP
+              (VBN been)
+              (VP (NN averted) (NP+-NONE- *-1))))
+          (. .)))))) (p=5.11062e-74)
+ID:  0 length: 23 state:  0 recall:47.37 prec:40.91 matched_brackets:  9 gold_brackets: 19 test_brackets: 22 cross_brackets:  5 words: 23 correct_tags: 19 tag_accracy:82.61 
+Sentence: ['A', 'lack', 'of', 'enthusiasm', 'with', 'the', 'latest', 'economic', 'data', 'hampered', 'the', 'stock', 'market', "'s", 'bid', '*', 'to', 'extend', 'Tuesday', "'s", 'sharp', 'gains', ',', 'as', 'prices', 'closed', 'slightly', 'higher', 'in', 'sluggish', 'trading', '.']
+Treebank index 26 0 OOV words: {'hampered'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (DT A) (NN lack))
+    (PP
+      (IN of)
+      (NP
+        (NAC
+          (NN enthusiasm)
+          (PP
+            (IN with)
+            (NP
+              (NP
+                (NP
+                  (DT the)
+                  (NP|<JJS-JJ-NN>
+                    (JJS latest)
+                    (NP|<JJ-NN> (JJ economic) (NN data))))
+                (NN hampered))
+              (NP
+                (DT the)
+                (NP|<NN-NN> (NN stock) (NN market))))))
+        (POS 's))))
+  (S|<VP-.>
+    (VP
+      (VBD bid)
+      (VP|<S-ADVP-TMP>
+        (S
+          (NP-SBJ+-NONE- *)
+          (VP
+            (TO to)
+            (VP
+              (VB extend)
+              (VP|<NP-,-SBAR-ADV>
+                (NP
+                  (NP (NNP Tuesday) (POS 's))
+                  (NP|<JJ-NNS> (JJ sharp) (NNS gains)))
+                (VP|<,-SBAR-ADV>
+                  (, ,)
+                  (SBAR-ADV
+                    (IN as)
+                    (S
+                      (NP-SBJ+NNS prices)
+                      (VP
+                        (VBD closed)
+                        (ADVP-EXT+RB slightly)))))))))
+        (ADVP-TMP
+          (JJR higher)
+          (PP (IN in) (NP (JJ sluggish) (NN trading))))))
+    (. .))) (p=1.87955e-98)
+ID:  0 length: 32 state:  0 recall:25.00 prec:19.35 matched_brackets:  6 gold_brackets: 24 test_brackets: 31 cross_brackets: 19 words: 32 correct_tags: 26 tag_accracy:81.25 
+Sentence: ['First', 'Chicago', 'Corp.', 'said', '0', 'it', 'completed', 'its', '$', '55.1', 'million', '*U*', 'cash-and-stock', 'acquisition', 'of', 'closely', 'held', 'Ravenswood', 'Financial', 'Corp.', ',', 'another', 'Chicago', 'bank', 'holding', 'company', '.']
+Treebank index 27 0 OOV words: {'cash-and-stock', '55.1', 'Ravenswood'} Applying Smoothing
+No tree
+Sentence: ['BRAMALEA', 'Ltd.', 'said', '0', 'it', 'agreed', '*-1', 'to', 'issue', '100', 'million', 'Canadian', 'dollars', '-LRB-', 'US$', '85.1', 'million', '*U*', '-RRB-', 'of', '10.5', '%', 'senior', 'debentures', 'due', 'Nov.', '30', ',', '1999', ',', 'together', 'with', '100,000', 'bond', 'purchase', 'warrants', '.']
+Treebank index 28 0 OOV words: {'85.1', 'BRAMALEA', '10.5'} Applying Smoothing
+No tree
+Sentence: ['The', 'Toronto-based', 'real', 'estate', 'concern', 'said', '0', 'each', 'bond', 'warrant', 'entitles', 'the', 'holder', 'to', 'buy', 'C$', '1,000', '*U*', 'principal', 'amount', 'of', 'debentures', 'at', 'par', 'plus', 'accrued', 'interest', 'to', 'the', 'date', 'of', 'purchase', '.']
+Treebank index 28 1 OOV words: {'accrued', 'Toronto-based'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (DT The) (NN Toronto-based))
+    (NP-SBJ|<JJ-NN-NN>
+      (JJ real)
+      (NP-SBJ|<NN-NN> (NN estate) (NN concern))))
+  (S|<VP-.>
+    (VP
+      (VBD said)
+      (SBAR
+        (-NONE- 0)
+        (S
+          (NP-SBJ
+            (DT each)
+            (NP-SBJ|<NN-NN> (NN bond) (NN warrant)))
+          (VP
+            (VBZ entitles)
+            (S
+              (NP-SBJ (DT the) (NN holder))
+              (VP
+                (TO to)
+                (VP
+                  (VB buy)
+                  (VP|<NP-PP-CLR-NP-TMP>
+                    (NP
+                      (NP
+                        (NP
+                          (NP
+                            ($ C$)
+                            (NP|<CD--NONE->
+                              (CD 1,000)
+                              (-NONE- *U*)))
+                          (ADVP-TMP
+                            (NP (JJ principal) (NN amount))
+                            (IN of)))
+                        (NNS debentures))
+                      (PP
+                        (IN at)
+                        (NP
+                          (NP+NN par)
+                          (NP|<CC-NP>
+                            (CC plus)
+                            (NP (NN accrued) (NN interest))))))
+                    (VP|<PP-CLR-NP-TMP>
+                      (PP-CLR
+                        (TO to)
+                        (NP (DT the) (NN date)))
+                      (NP-TMP (IN of) (NN purchase)))))))))))
+    (. .))) (p=3.19439e-108)
+ID:  0 length: 33 state:  0 recall:53.85 prec:43.75 matched_brackets: 14 gold_brackets: 26 test_brackets: 32 cross_brackets:  7 words: 33 correct_tags: 29 tag_accracy:87.88 
+Sentence: ['The', 'Life', 'Insurance', 'Co.', 'of', 'Georgia', 'has', 'officially', 'opened', 'an', 'office', 'in', 'Taipei', '.']
+(S
+  (NP-SBJ
+    (DT The)
+    (NP-SBJ|<NNP-NNP-NNP>
+      (NNP Life)
+      (NP-SBJ|<NNP-NNP> (NNP Insurance) (NNP Co.))))
+  (S|<NP-TMP-VP>
+    (NP-TMP (IN of) (NNP Georgia))
+    (VP
+      (VBZ has)
+      (VP
+        (ADVP-MNR+RB officially)
+        (VP|<VBD-NP-PP-CLR>
+          (VBD opened)
+          (VP|<NP-PP-CLR>
+            (NP (DT an) (NN office))
+            (PP-CLR (IN in) (NP (NNP Taipei) (. .))))))))) (p=2.75612e-47)
+ID:  0 length: 14 state:  0 recall:18.18 prec:15.38 matched_brackets:  2 gold_brackets: 11 test_brackets: 13 cross_brackets:  6 words: 14 correct_tags: 12 tag_accracy:85.71 
+Sentence: ['Tony', 'Lama', 'Co.', 'said', 'that', 'Equus', 'Investment', 'II', 'Limited', 'Partnership', 'has', 'proposed', '*-1', 'changing', 'the', 'offer', 'for', 'the', 'company', 'to', '$', '13.65', '*U*', 'in', 'cash', 'and', 'stock', 'from', 'an', 'all-cash', 'transaction', '.']
+Treebank index 30 0 OOV words: {'all-cash', 'Equus', 'Lama', 'Tony', '13.65'} Applying Smoothing
+No tree
+Sentence: ['Under', 'terms', 'of', 'the', 'new', 'proposal', ',', 'Equus', ',', 'managed', '*', 'by', 'Equus', 'Capital', 'Corp.', ',', 'Houston', ',', 'would', 'pay', '$', '12', '*U*', 'cash', 'and', 'one', 'new', 'preferred', 'share', 'with', 'a', 'liquidation', 'preference', 'of', '$', '1.65', '*U*', 'a', 'share', 'for', 'each', 'of', 'Tony', 'Lama', "'s", '2.1', 'million', 'shares', 'outstanding', '.']
+Treebank index 30 1 OOV words: {'liquidation'} Applying Smoothing
+(S
+  (PP-LOC
+    (IN Under)
+    (NP
+      (NP
+        (NP
+          (NP
+            (NP+NNS terms)
+            (PP
+              (IN of)
+              (PP|<NP-,>
+                (NP
+                  (DT the)
+                  (NP|<JJ-NN> (JJ new) (NN proposal)))
+                (, ,))))
+          (NN Equus))
+        (NP|<,-VP>
+          (, ,)
+          (VP
+            (VBN managed)
+            (VP|<NP+-NONE--SBAR-TMP>
+              (NP+-NONE- *)
+              (SBAR-TMP
+                (IN by)
+                (S
+                  (NP-SBJ
+                    (NP
+                      (NN Equus)
+                      (NP|<NNP-NNP>
+                        (NNP Capital)
+                        (NNP Corp.)))
+                    (NP-SBJ|<,-NP-LOC+NNP-,>
+                      (, ,)
+                      (NP-SBJ|<NP-LOC+NNP-,>
+                        (NP-LOC+NNP Houston)
+                        (, ,))))
+                  (VP
+                    (MD would)
+                    (VP
+                      (VB pay)
+                      (NP
+                        (NP
+                          (NP
+                            (NP
+                              ($ $)
+                              (NP|<CD--NONE->
+                                (CD 12)
+                                (-NONE- *U*)))
+                            (NN cash))
+                          (NP|<CC-NP+CD>
+                            (CC and)
+                            (NP+CD one)))
+                        (NP|<JJ-JJ-NN>
+                          (JJ new)
+                          (NP|<JJ-NN>
+                            (JJ preferred)
+                            (NN share))))))))))))
+      (PP (IN with) (NP (DT a) (NN liquidation)))))
+  (S|<NP-SBJ-7-VP-.>
+    (NP-SBJ-7
+      (NP
+        (NP+NN preference)
+        (PP
+          (IN of)
+          (NP
+            (NP
+              ($ $)
+              (NP|<CD--NONE-> (CD 1.65) (-NONE- *U*)))
+            (NP-ADV (DT a) (NN share)))))
+      (PP-LOC
+        (IN for)
+        (NP
+          (NP+DT each)
+          (PP (IN of) (NP (NN Tony) (NN Lama))))))
+    (S|<VP-.>
+      (VP
+        (VBZ 's)
+        (NP
+          (NP (QP (CD 2.1) (CD million)) (NNS shares))
+          (ADJP+JJ outstanding)))
+      (. .)))) (p=1.3263e-143)
+ID:  0 length: 50 state:  0 recall:25.00 prec:18.37 matched_brackets:  9 gold_brackets: 36 test_brackets: 49 cross_brackets: 30 words: 50 correct_tags: 38 tag_accracy:76.00 
+Sentence: ['Standard', '&', 'Poor', "'s", 'Corp.', 'lowered', 'to', 'double-C', 'from', 'triple-C', 'the', 'rating', 'on', 'about', '$', '130', 'million', '*U*', 'of', 'debt', '.']
+Treebank index 31 0 OOV words: {'double-C', 'triple-C'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP
+      (NNP Standard)
+      (NP|<CC-NNP-POS>
+        (CC &)
+        (NP|<NNP-POS> (NNP Poor) (POS 's))))
+    (NNP Corp.))
+  (S|<VP-.>
+    (VP
+      (VBD lowered)
+      (VP
+        (TO to)
+        (VP
+          (NN double-C)
+          (PP-CLR
+            (IN from)
+            (NP
+              (NP
+                (NN triple-C)
+                (NP|<JJ-NN> (JJ the) (NN rating)))
+              (PP
+                (IN on)
+                (NP
+                  (NP
+                    (QP
+                      (IN about)
+                      (QP|<$-CD-CD>
+                        ($ $)
+                        (QP|<CD-CD> (CD 130) (CD million))))
+                    (-NONE- *U*))
+                  (PP (IN of) (NP+NN debt)))))))))
+    (. .))) (p=4.86126e-62)
+ID:  0 length: 21 state:  0 recall:50.00 prec:40.00 matched_brackets:  8 gold_brackets: 16 test_brackets: 20 cross_brackets:  3 words: 21 correct_tags: 19 tag_accracy:90.48 
+Sentence: ['Young', "'s", 'Market', 'Co.', ',', 'a', 'wholesaler', 'of', 'spirits', ',', 'wines', 'and', 'other', 'goods', ',', 'said', '0', 'it', 'will', 'merge', 'with', 'a', 'new', 'corporation', 'formed', '*', 'by', 'the', 'Underwood', 'family', ',', 'which', '*T*-1', 'controls', 'Young', "'s", '.']
+Treebank index 32 0 OOV words: {'Underwood', 'wholesaler', 'spirits'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP
+      (NP (NNP Young) (POS 's))
+      (NP|<NNP-NNP> (NNP Market) (NNP Co.)))
+    (NP-SBJ|<,-NP-,>
+      (, ,)
+      (NP-SBJ|<NP-,>
+        (NP
+          (NP
+            (NP (DT a) (NN wholesaler))
+            (NP-TMP (IN of) (NN spirits)))
+          (NP|<,-NP+NNS-CC-NP>
+            (, ,)
+            (NP|<NP+NNS-CC-NP>
+              (NP+NNS wines)
+              (NP|<CC-NP>
+                (CC and)
+                (NP (JJ other) (NNS goods))))))
+        (, ,))))
+  (S|<VP-.>
+    (VP
+      (VBD said)
+      (SBAR
+        (-NONE- 0)
+        (S
+          (NP-SBJ+PRP it)
+          (VP
+            (MD will)
+            (VP
+              (VB merge)
+              (SBAR
+                (IN with)
+                (S
+                  (NP-SBJ
+                    (DT a)
+                    (NP-SBJ|<JJ-NN>
+                      (JJ new)
+                      (NN corporation)))
+                  (VP
+                    (VBN formed)
+                    (VP|<NP+-NONE--PP>
+                      (NP+-NONE- *)
+                      (PP
+                        (IN by)
+                        (NP
+                          (NP
+                            (DT the)
+                            (NP|<NN-NN>
+                              (NN Underwood)
+                              (NN family)))
+                          (NP|<,-SBAR>
+                            (, ,)
+                            (SBAR
+                              (WHNP-1+WDT which)
+                              (S
+                                (NP-SBJ+-NONE- *T*-1)
+                                (VP
+                                  (NNS controls)
+                                  (NP (NNP Young) (POS 's)))))))))))))))))
+    (. .))) (p=2.23028e-101)
+ID:  0 length: 37 state:  0 recall:61.29 prec:52.78 matched_brackets: 19 gold_brackets: 31 test_brackets: 36 cross_brackets:  2 words: 37 correct_tags: 29 tag_accracy:78.38 
+Sentence: ['The', 'Treasury', 'said', '0', 'it', 'plans', '*-1', 'to', 'sell', '$', '30', 'billion', '*U*', 'in', 'notes', 'and', 'bonds', 'next', 'week', ',', 'but', 'said', '0', 'the', 'auctions', 'will', 'be', 'postponed', '*-105', 'unless', 'Congress', 'acts', 'quickly', '*-2', 'to', 'lift', 'the', 'federal', 'debt', 'ceiling', '.']
+Treebank index 33 0 OOV words: {'postponed', '*-105'} Applying Smoothing
+(S
+  (NP-SBJ (DT The) (NNP Treasury))
+  (S|<VP-.>
+    (VP
+      (VBD said)
+      (SBAR
+        (-NONE- 0)
+        (S
+          (NP-SBJ+PRP it)
+          (VP
+            (VBZ plans)
+            (VP|<S-S-PRP>
+              (S
+                (NP-SBJ+-NONE- *-1)
+                (VP
+                  (VP
+                    (TO to)
+                    (VP
+                      (VB sell)
+                      (VP|<NP-PP-LOC-NP-TMP>
+                        (NP
+                          (QP
+                            ($ $)
+                            (QP|<CD-CD>
+                              (CD 30)
+                              (CD billion)))
+                          (-NONE- *U*))
+                        (VP|<PP-LOC-NP-TMP>
+                          (PP-LOC
+                            (IN in)
+                            (NP
+                              (NNS notes)
+                              (NP|<CC-NNS>
+                                (CC and)
+                                (NNS bonds))))
+                          (NP-TMP (JJ next) (NN week))))))
+                  (VP|<,-CC-VP>
+                    (, ,)
+                    (VP|<CC-VP>
+                      (CC but)
+                      (VP
+                        (VBD said)
+                        (SBAR
+                          (-NONE- 0)
+                          (S
+                            (NP-SBJ
+                              (DT the)
+                              (NNS auctions))
+                            (VP
+                              (MD will)
+                              (VP
+                                (VB be)
+                                (VP|<NP-ADVP-MNR+RB>
+                                  (NP
+                                    (NP
+                                      (NP
+                                        (NN postponed)
+                                        (NN *-105))
+                                      (PP
+                                        (IN unless)
+                                        (NP+NNP Congress)))
+                                    (NNS acts))
+                                  (ADVP-MNR+RB quickly)))))))))))
+              (S-PRP
+                (NP-SBJ+-NONE- *-2)
+                (VP
+                  (TO to)
+                  (VP
+                    (VB lift)
+                    (NP
+                      (DT the)
+                      (NP|<JJ-NN-NN>
+                        (JJ federal)
+                        (NP|<NN-NN> (NN debt) (NN ceiling))))))))))))
+    (. .))) (p=5.15466e-107)
+ID:  0 length: 41 state:  0 recall:33.33 prec:30.00 matched_brackets: 12 gold_brackets: 36 test_brackets: 40 cross_brackets: 18 words: 41 correct_tags: 32 tag_accracy:78.05 
+Sentence: ['James', 'L.', 'Pate', ',', '54-year-old', 'executive', 'vice', 'president', ',', 'was', 'named', '*-44', 'a', 'director', 'of', 'this', 'oil', 'concern', ',', '*', 'expanding', 'the', 'board', 'to', '14', 'members', '.']
+Treebank index 34 0 OOV words: {'54-year-old', 'Pate'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (NP (NNP James) (NNP L.)) (NN Pate))
+    (NP-SBJ|<,-NP-,>
+      (, ,)
+      (NP-SBJ|<NP-,>
+        (NP
+          (NN 54-year-old)
+          (NP|<NN-NN-NN>
+            (NN executive)
+            (NP|<NN-NN> (NN vice) (NN president))))
+        (, ,))))
+  (S|<VP-.>
+    (VP
+      (VBD was)
+      (VP
+        (VBN named)
+        (VP|<NP+-NONE--PP-TMP-,-S-ADV>
+          (NP+-NONE- *-44)
+          (VP|<PP-TMP-,-S-ADV>
+            (PP-TMP
+              (NP-ADV (DT a) (NN director))
+              (PP-TMP|<IN-NP>
+                (IN of)
+                (NP
+                  (DT this)
+                  (NP|<NN-NN> (NN oil) (NN concern)))))
+            (VP|<,-S-ADV>
+              (, ,)
+              (S-ADV
+                (NP-SBJ+-NONE- *)
+                (VP
+                  (VBG expanding)
+                  (VP|<NP-PP-CLR>
+                    (NP (DT the) (NN board))
+                    (PP-CLR
+                      (TO to)
+                      (NP (CD 14) (NNS members)))))))))))
+    (. .))) (p=1.01932e-80)
+ID:  0 length: 27 state:  0 recall:61.11 prec:42.31 matched_brackets: 11 gold_brackets: 18 test_brackets: 26 cross_brackets:  1 words: 27 correct_tags: 23 tag_accracy:85.19 
+Sentence: ['Cooper', 'Tire', '&', 'Rubber', 'Co.', 'said', '0', 'it', 'has', 'reached', 'an', 'agreement', '*ICH*-1', 'in', 'principle', '*', 'to', 'buy', 'buildings', 'and', 'related', 'property', 'in', 'Albany', ',', 'Ga.', ',', 'from', 'Bridgestone\\/Firestone', 'Inc', '.']
+Treebank index 35 0 OOV words: {'Rubber', 'Albany', 'Bridgestone\\\\\\\\/Firestone', 'Tire'} Applying Smoothing
+No tree
+Sentence: ['Terms', 'were', "n't", 'disclosed', '*-1', '.']
+(S
+  (NP-SBJ-1+NNS Terms)
+  (S|<VP-.>
+    (VP
+      (VBD were)
+      (VP|<RB-VP>
+        (RB n't)
+        (VP (VBN disclosed) (NP+-NONE- *-1))))
+    (. .))) (p=1.71433e-13)
+ID:  0 length:  6 state:  0 recall:60.00 prec:60.00 matched_brackets:  3 gold_brackets:  5 test_brackets:  5 cross_brackets:  0 words:  6 correct_tags:  4 tag_accracy:66.67 
+Sentence: ['In', 'this', 'era', 'of', 'frantic', 'competition', 'for', 'ad', 'dollars', ',', 'a', 'lot', 'of', 'revenue-desperate', 'magazines', 'are', 'getting', 'pretty', 'cozy', 'with', 'advertisers', '--', '*-1', 'fawning', 'over', 'them', 'in', 'articles', 'and', 'offering', 'pages', 'of', 'advertorial', 'space', '.']
+Treebank index 36 0 OOV words: {'revenue-desperate', 'articles', 'magazines', 'fawning', 'cozy', 'advertorial', 'frantic'} Applying Smoothing
+(S
+  (PP-LOC
+    (IN In)
+    (NP
+      (NP
+        (NP (DT this) (NN era))
+        (PP (IN of) (NP (NN frantic) (NN competition))))
+      (PP (IN for) (NP (NN ad) (NNS dollars)))))
+  (S|<,-NP-SBJ-VP-.>
+    (, ,)
+    (S|<NP-SBJ-VP-.>
+      (NP-SBJ
+        (NP (DT a) (NN lot))
+        (PP
+          (IN of)
+          (NP (NN revenue-desperate) (NN magazines))))
+      (S|<VP-.>
+        (VP
+          (VBP are)
+          (VP
+            (VBG getting)
+            (VP|<NP-:-S-ADV>
+              (NP
+                (NP+QP (RB pretty) (NN cozy))
+                (PP (IN with) (NP+NNS advertisers)))
+              (VP|<:-S-ADV>
+                (: --)
+                (S-ADV
+                  (NP-SBJ+-NONE- *-1)
+                  (VP
+                    (NN fawning)
+                    (VP|<PRT+RP-NP>
+                      (PRT+RP over)
+                      (NP
+                        (NP
+                          (NP+PRP them)
+                          (PP
+                            (IN in)
+                            (NP
+                              (NN articles)
+                              (NP|<CC-NN-NNS>
+                                (CC and)
+                                (NP|<NN-NNS>
+                                  (NN offering)
+                                  (NNS pages))))))
+                        (PP
+                          (IN of)
+                          (NP (NN advertorial) (NN space)))))))))))
+        (. .))))) (p=9.40922e-112)
+ID:  0 length: 35 state:  0 recall:54.84 prec:50.00 matched_brackets: 17 gold_brackets: 31 test_brackets: 34 cross_brackets:  9 words: 35 correct_tags: 23 tag_accracy:65.71 
+Sentence: ['Fujitsu', 'Ltd.', "'s", 'top', 'executive', 'took', 'the', 'unusual', 'step', 'of', '*', 'publicly', 'apologizing', 'for', 'his', 'company', "'s", 'making', 'bids', 'of', 'just', 'one', 'yen', 'for', 'several', 'local', 'government', 'projects', ',', 'while', 'computer', 'rival', 'NEC', 'Corp.', 'made', 'a', 'written', 'apology', 'for', '*', 'indulging', 'in', 'the', 'same', 'practice', '.']
+Treebank index 37 0 OOV words: {'apologizing', 'indulging', 'apology'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NP (NNP Fujitsu) (NP|<NNP-POS> (NNP Ltd.) (POS 's)))
+    (NP-SBJ|<JJ-NN> (JJ top) (NN executive)))
+  (VP
+    (VBD took)
+    (VP|<NP-PP-CLR-,-SBAR-PRP>
+      (NP (DT the) (NP|<JJ-NN> (JJ unusual) (NN step)))
+      (VP|<PP-CLR-,-SBAR-PRP>
+        (PP-CLR
+          (IN of)
+          (S-NOM
+            (NP-SBJ+-NONE- *)
+            (S-NOM|<RB-VP>
+              (RB publicly)
+              (VP
+                (NN apologizing)
+                (VP|<PP-LOC-NP-TMP>
+                  (PP-LOC
+                    (IN for)
+                    (NP
+                      (PRP$ his)
+                      (NP|<NN-POS> (NN company) (POS 's))))
+                  (NP-TMP
+                    (NP
+                      (NP (VBG making) (NNS bids))
+                      (PP
+                        (IN of)
+                        (NP
+                          (RB just)
+                          (NP|<CD-NNS> (CD one) (NNS yen)))))
+                    (PP
+                      (IN for)
+                      (NP
+                        (JJ several)
+                        (NP|<JJ-NN-NNS>
+                          (JJ local)
+                          (NP|<NN-NNS>
+                            (NN government)
+                            (NNS projects)))))))))))
+        (VP|<,-SBAR-PRP>
+          (, ,)
+          (SBAR-PRP
+            (IN while)
+            (SBAR-PRP|<NN-S>
+              (NN computer)
+              (S
+                (NP-SBJ
+                  (NN rival)
+                  (NP-SBJ|<NNP-NNP> (NNP NEC) (NNP Corp.)))
+                (S|<VP-.>
+                  (VP
+                    (VBN made)
+                    (VP|<NP-PP-CLR>
+                      (NP
+                        (DT a)
+                        (NP|<VBN-NN>
+                          (VBN written)
+                          (NN apology)))
+                      (PP-CLR
+                        (IN for)
+                        (S-NOM
+                          (NP-SBJ+-NONE- *)
+                          (VP
+                            (NN indulging)
+                            (PP-CLR
+                              (IN in)
+                              (NP
+                                (DT the)
+                                (NP|<JJ-NN>
+                                  (JJ same)
+                                  (NN practice)))))))))
+                  (. .)))))))))) (p=5.64011e-148)
+ID:  0 length: 46 state:  0 recall:44.12 prec:33.33 matched_brackets: 15 gold_brackets: 34 test_brackets: 45 cross_brackets: 11 words: 46 correct_tags: 40 tag_accracy:86.96 
+Sentence: ['Hudson', 'General', 'Corp.', "'s", 'president', 'and', 'chief', 'executive', 'officer', ',', 'Alan', 'J.', 'Stearn', ',', 'resigned', '.']
+Treebank index 38 0 OOV words: {'Stearn', 'Hudson'} Applying Smoothing
+(S
+  (NP-SBJ
+    (NN Hudson)
+    (NP-SBJ|<NNP-NNP> (NNP General) (NNP Corp.)))
+  (S|<VP-.>
+    (VP
+      (VBZ 's)
+      (S
+        (NP-SBJ
+          (NP
+            (NP+NN president)
+            (NP|<CC-NP>
+              (CC and)
+              (NP
+                (JJ chief)
+                (NP|<JJ-NN> (JJ executive) (NN officer)))))
+          (NP-SBJ|<,-NP-,>
+            (, ,)
+            (NP-SBJ|<NP-,>
+              (NP (NP (NNP Alan) (NNP J.)) (NN Stearn))
+              (, ,))))
+        (VP+JJ resigned)))
+    (. .))) (p=1.55083e-51)
+ID:  0 length: 16 state:  0 recall:33.33 prec:13.33 matched_brackets:  2 gold_brackets:  6 test_brackets: 15 cross_brackets:  4 words: 16 correct_tags: 10 tag_accracy:62.50 
+Sentence: ['Consolidated', 'Rail', 'Corp.', 'said', '0', 'it', 'would', 'spend', 'more', 'than', '$', '30', 'million', '*U*', 'on', '1,000', 'enclosed', 'railcars', 'for', '*', 'transporting', 'autos', '.']
+Treebank index 39 0 OOV words: {'Rail', 'enclosed', 'railcars', 'transporting', 'autos'} Applying Smoothing
+(S
+  (NP-SBJ (NP (NNP Consolidated) (NN Rail)) (NNP Corp.))
+  (S|<VP-.>
+    (VP
+      (VBD said)
+      (SBAR
+        (-NONE- 0)
+        (S
+          (NP-SBJ+PRP it)
+          (VP
+            (MD would)
+            (VP
+              (VBP spend)
+              (VP|<ADJP-PRD-SBAR-ADV>
+                (ADJP-PRD
+                  (ADJP
+                    (QP
+                      (JJR more)
+                      (QP|<IN-$-CD-CD>
+                        (IN than)
+                        (QP|<$-CD-CD>
+                          ($ $)
+                          (QP|<CD-CD> (CD 30) (CD million)))))
+                    (-NONE- *U*))
+                  (PP
+                    (IN on)
+                    (NP
+                      (CD 1,000)
+                      (NP|<NN-NN>
+                        (NN enclosed)
+                        (NN railcars)))))
+                (SBAR-ADV
+                  (IN for)
+                  (S
+                    (NP-SBJ+-NONE- *)
+                    (NP-PRD (NN transporting) (NN autos))))))))))
+    (. .))) (p=1.16629e-68)
+ID:  0 length: 23 state:  0 recall:50.00 prec:40.91 matched_brackets:  9 gold_brackets: 18 test_brackets: 22 cross_brackets:  2 words: 23 correct_tags: 14 tag_accracy:60.87 
+Got parse trees for:  37 sentences.
+ID:  0 length: 24 state:  0 recall:37.50 prec:26.09 matched_brackets:  6 gold_brackets: 16 test_brackets: 23 cross_brackets:  5 words: 24 correct_tags: 19 tag_accracy:79.17 
+ID:  0 length: 26 state:  0 recall:47.62 prec:40.00 matched_brackets: 10 gold_brackets: 21 test_brackets: 25 cross_brackets:  4 words: 26 correct_tags: 20 tag_accracy:76.92 
+ID:  0 length: 33 state:  0 recall:50.00 prec:43.75 matched_brackets: 14 gold_brackets: 28 test_brackets: 32 cross_brackets:  4 words: 33 correct_tags: 25 tag_accracy:75.76 
+ID:  0 length: 24 state:  0 recall:57.14 prec:34.78 matched_brackets:  8 gold_brackets: 14 test_brackets: 23 cross_brackets:  1 words: 24 correct_tags: 20 tag_accracy:83.33 
+ID:  0 length: 39 state:  0 recall:32.26 prec:26.32 matched_brackets: 10 gold_brackets: 31 test_brackets: 38 cross_brackets:  9 words: 39 correct_tags: 33 tag_accracy:84.62 
+ID:  0 length: 45 state:  0 recall:21.43 prec:13.64 matched_brackets:  6 gold_brackets: 28 test_brackets: 44 cross_brackets: 17 words: 45 correct_tags: 36 tag_accracy:80.00 
+ID:  0 length: 12 state:  0 recall:60.00 prec:54.55 matched_brackets:  6 gold_brackets: 10 test_brackets: 11 cross_brackets:  1 words: 12 correct_tags: 10 tag_accracy:83.33 
+ID:  0 length: 35 state:  0 recall:18.18 prec:17.65 matched_brackets:  6 gold_brackets: 33 test_brackets: 34 cross_brackets: 24 words: 35 correct_tags: 27 tag_accracy:77.14 
+ID:  0 length: 28 state:  0 recall:58.82 prec:37.04 matched_brackets: 10 gold_brackets: 17 test_brackets: 27 cross_brackets:  3 words: 28 correct_tags: 26 tag_accracy:92.86 
+ID:  0 length: 16 state:  0 recall:14.29 prec:13.33 matched_brackets:  2 gold_brackets: 14 test_brackets: 15 cross_brackets: 10 words: 16 correct_tags:  7 tag_accracy:43.75 
+ID:  0 length: 43 state:  0 recall:13.33 prec: 9.52 matched_brackets:  4 gold_brackets: 30 test_brackets: 42 cross_brackets: 21 words: 43 correct_tags: 37 tag_accracy:86.05 
+ID:  0 length: 28 state:  0 recall:27.27 prec:22.22 matched_brackets:  6 gold_brackets: 22 test_brackets: 27 cross_brackets: 12 words: 28 correct_tags: 20 tag_accracy:71.43 
+ID:  0 length: 35 state:  0 recall:32.43 prec:35.29 matched_brackets: 12 gold_brackets: 37 test_brackets: 34 cross_brackets: 17 words: 35 correct_tags: 22 tag_accracy:62.86 
+ID:  0 length: 22 state:  0 recall:45.45 prec:47.62 matched_brackets: 10 gold_brackets: 22 test_brackets: 21 cross_brackets:  6 words: 22 correct_tags: 16 tag_accracy:72.73 
+ID:  0 length: 22 state:  0 recall:63.64 prec:33.33 matched_brackets:  7 gold_brackets: 11 test_brackets: 21 cross_brackets:  0 words: 22 correct_tags: 19 tag_accracy:86.36 
+ID:  0 length: 46 state:  0 recall:11.11 prec:11.11 matched_brackets:  5 gold_brackets: 45 test_brackets: 45 cross_brackets: 29 words: 46 correct_tags: 28 tag_accracy:60.87 
+ID:  0 length: 46 state:  0 recall:51.43 prec:40.00 matched_brackets: 18 gold_brackets: 35 test_brackets: 45 cross_brackets:  6 words: 46 correct_tags: 33 tag_accracy:71.74 
+ID:  0 length: 31 state:  0 recall:23.08 prec:20.00 matched_brackets:  6 gold_brackets: 26 test_brackets: 30 cross_brackets: 18 words: 31 correct_tags: 21 tag_accracy:67.74 
+ID:  0 length: 26 state:  0 recall:22.22 prec:16.00 matched_brackets:  4 gold_brackets: 18 test_brackets: 25 cross_brackets: 11 words: 26 correct_tags: 23 tag_accracy:88.46 
+ID:  0 length: 20 state:  0 recall:56.25 prec:47.37 matched_brackets:  9 gold_brackets: 16 test_brackets: 19 cross_brackets:  3 words: 20 correct_tags: 15 tag_accracy:75.00 
+ID:  0 length: 34 state:  0 recall:46.67 prec:42.42 matched_brackets: 14 gold_brackets: 30 test_brackets: 33 cross_brackets:  7 words: 34 correct_tags: 26 tag_accracy:76.47 
+ID:  0 length: 18 state:  0 recall:90.91 prec:58.82 matched_brackets: 10 gold_brackets: 11 test_brackets: 17 cross_brackets:  0 words: 18 correct_tags: 16 tag_accracy:88.89 
+ID:  0 length: 31 state:  0 recall:63.64 prec:46.67 matched_brackets: 14 gold_brackets: 22 test_brackets: 30 cross_brackets:  3 words: 31 correct_tags: 21 tag_accracy:67.74 
+ID:  0 length: 23 state:  0 recall:47.37 prec:40.91 matched_brackets:  9 gold_brackets: 19 test_brackets: 22 cross_brackets:  5 words: 23 correct_tags: 19 tag_accracy:82.61 
+ID:  0 length: 32 state:  0 recall:25.00 prec:19.35 matched_brackets:  6 gold_brackets: 24 test_brackets: 31 cross_brackets: 19 words: 32 correct_tags: 26 tag_accracy:81.25 
+ID:  0 length: 33 state:  0 recall:53.85 prec:43.75 matched_brackets: 14 gold_brackets: 26 test_brackets: 32 cross_brackets:  7 words: 33 correct_tags: 29 tag_accracy:87.88 
+ID:  0 length: 14 state:  0 recall:18.18 prec:15.38 matched_brackets:  2 gold_brackets: 11 test_brackets: 13 cross_brackets:  6 words: 14 correct_tags: 12 tag_accracy:85.71 
+ID:  0 length: 50 state:  0 recall:25.00 prec:18.37 matched_brackets:  9 gold_brackets: 36 test_brackets: 49 cross_brackets: 30 words: 50 correct_tags: 38 tag_accracy:76.00 
+ID:  0 length: 21 state:  0 recall:50.00 prec:40.00 matched_brackets:  8 gold_brackets: 16 test_brackets: 20 cross_brackets:  3 words: 21 correct_tags: 19 tag_accracy:90.48 
+ID:  0 length: 37 state:  0 recall:61.29 prec:52.78 matched_brackets: 19 gold_brackets: 31 test_brackets: 36 cross_brackets:  2 words: 37 correct_tags: 29 tag_accracy:78.38 
+ID:  0 length: 41 state:  0 recall:33.33 prec:30.00 matched_brackets: 12 gold_brackets: 36 test_brackets: 40 cross_brackets: 18 words: 41 correct_tags: 32 tag_accracy:78.05 
+ID:  0 length: 27 state:  0 recall:61.11 prec:42.31 matched_brackets: 11 gold_brackets: 18 test_brackets: 26 cross_brackets:  1 words: 27 correct_tags: 23 tag_accracy:85.19 
+ID:  0 length:  6 state:  0 recall:60.00 prec:60.00 matched_brackets:  3 gold_brackets:  5 test_brackets:  5 cross_brackets:  0 words:  6 correct_tags:  4 tag_accracy:66.67 
+ID:  0 length: 35 state:  0 recall:54.84 prec:50.00 matched_brackets: 17 gold_brackets: 31 test_brackets: 34 cross_brackets:  9 words: 35 correct_tags: 23 tag_accracy:65.71 
+ID:  0 length: 46 state:  0 recall:44.12 prec:33.33 matched_brackets: 15 gold_brackets: 34 test_brackets: 45 cross_brackets: 11 words: 46 correct_tags: 40 tag_accracy:86.96 
+ID:  0 length: 16 state:  0 recall:33.33 prec:13.33 matched_brackets:  2 gold_brackets:  6 test_brackets: 15 cross_brackets:  4 words: 16 correct_tags: 10 tag_accracy:62.50 
+ID:  0 length: 23 state:  0 recall:50.00 prec:40.91 matched_brackets:  9 gold_brackets: 18 test_brackets: 22 cross_brackets:  2 words: 23 correct_tags: 14 tag_accracy:60.87 
