@@ -99,6 +99,7 @@ def train_pcfg(x_train):
     grammar = create_grammar(x_train)
     save_grammar(grammar)
     return grammar
+    
 #%%
 def test_pcfg(x_test, grammar=None):
     if grammar is None:
@@ -130,7 +131,6 @@ def test_pcfg(x_test, grammar=None):
                     print(test_tree)
                     gold_test.append((str(tree), str(test_tree.pformat())))
                     evaluate([gold_test[-1]])
-                    break
                 else:
                     print('No tree')
             except ValueError as v:

@@ -3,7 +3,13 @@
 # E1-246 2019: Assignment 3
 
 **Usage:**
+
+    Install needed packages from requirements.txt.
+    Download treebank:
     
+        import nltk
+        nltk.download('treebank')
+
     python pcfg_grammar.py train        Start training model for generating PCFG, generated grammar is saved in 'grammar.pickl' in same directory.
 
     python pcfg_grammar.py evaluate     Grammar in 'grammar.pickl' is evaluated on test dataset, Precision, Recall and F1 score metrics are reported. 

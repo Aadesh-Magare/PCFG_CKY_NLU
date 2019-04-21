@@ -63,7 +63,7 @@ class Parser():
        
         # if tree is None:
         #     [print(p, parse_table[p]) for p in parse_table if p[0] == 0 and p[1] == len(tokens)]
-            # [print(p) for p in self.grammar.productions() if p.lhs() == Nonterminal('S')]
+        #     [print(p) for p in self.grammar.productions() if p.lhs() == Nonterminal('S')]
 
         return tree
 
@@ -87,7 +87,7 @@ class Parser():
 #%%
 if __name__ == '__main__':
     from pcfg_grammar import load_grammar
-    # grammar = load_grammar()
+    grammar = load_grammar()
     print('Grammar Loaded')
     p = Parser(grammar)
     s = ['Pierre', 'Vinken', 'board']
